@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\render">
+      <UniqueIdentifier>{8b1c6e2f-1206-4a66-b52c-294c2e5da88b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\frame">
+      <UniqueIdentifier>{0f50d5b1-af0a-4b46-b3a6-716c6744ac7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\frame">
+      <UniqueIdentifier>{89ec2331-bae7-4253-ae77-c446b8081c02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\render">
+      <UniqueIdentifier>{a039e5b6-703d-490a-98d8-3cd451223397}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\instance">
+      <UniqueIdentifier>{36b19fc3-06d3-4419-b398-97804c8f5091}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\instance">
+      <UniqueIdentifier>{b4422ea7-646f-4799-8705-dcadab1c445e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\trigger">
+      <UniqueIdentifier>{1515a024-550a-4910-803d-126dd58f0cc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\trigger">
+      <UniqueIdentifier>{349b6f40-413d-49d1-bfb2-bb70d2a2ee12}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DisplayObject.h">
+      <Filter>头文件\render</Filter>
+    </ClInclude>
+    <ClInclude Include="sprite.h">
+      <Filter>头文件\render</Filter>
+    </ClInclude>
+    <ClInclude Include="Content.h">
+      <Filter>头文件\render</Filter>
+    </ClInclude>
+    <ClInclude Include="action.h">
+      <Filter>头文件\render</Filter>
+    </ClInclude>
+    <ClInclude Include="d2dWin32.h">
+      <Filter>头文件\instance</Filter>
+    </ClInclude>
+    <ClInclude Include="DemoApp.h">
+      <Filter>头文件\instance</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件\instance</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件\instance</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件\instance</Filter>
+    </ClInclude>
+    <ClInclude Include="ticker.h">
+      <Filter>头文件\render</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>头文件\instance</Filter>
+    </ClInclude>
+    <ClInclude Include="collision.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="createBefore.h">
+      <Filter>头文件\trigger</Filter>
+    </ClInclude>
+    <ClInclude Include="frame0.h">
+      <Filter>头文件\frame</Filter>
+    </ClInclude>
+    <ClInclude Include="frame1.h">
+      <Filter>头文件\frame</Filter>
+    </ClInclude>
+    <ClInclude Include="oMap.h">
+      <Filter>头文件\instance</Filter>
+    </ClInclude>
+    <ClInclude Include="bullet.h">
+      <Filter>头文件\frame</Filter>
+    </ClInclude>
+    <ClInclude Include="fish.h">
+      <Filter>头文件\frame</Filter>
+    </ClInclude>
+    <ClInclude Include="colVec.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="fishConfig.h">
+      <Filter>头文件\frame</Filter>
+    </ClInclude>
+    <ClInclude Include="gold.h">
+      <Filter>头文件\frame</Filter>
+    </ClInclude>
+    <ClInclude Include="files.h">
+      <Filter>头文件\frame</Filter>
+    </ClInclude>
+    <ClInclude Include="frame2.h">
+      <Filter>头文件\frame</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="action.cpp">
+      <Filter>源文件\render</Filter>
+    </ClCompile>
+    <ClCompile Include="Content.cpp">
+      <Filter>源文件\render</Filter>
+    </ClCompile>
+    <ClCompile Include="DisplayObject.cpp">
+      <Filter>源文件\render</Filter>
+    </ClCompile>
+    <ClCompile Include="sprite.cpp">
+      <Filter>源文件\render</Filter>
+    </ClCompile>
+    <ClCompile Include="ticker.cpp">
+      <Filter>源文件\render</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件\instance</Filter>
+    </ClCompile>
+    <ClCompile Include="DemoApp.cpp">
+      <Filter>源文件\instance</Filter>
+    </ClCompile>
+    <ClCompile Include="d2dWin32.cpp">
+      <Filter>源文件\instance</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>源文件\instance</Filter>
+    </ClCompile>
+    <ClCompile Include="collision.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="createBefore.cpp">
+      <Filter>源文件\trigger</Filter>
+    </ClCompile>
+    <ClCompile Include="frame0.cpp">
+      <Filter>源文件\frame</Filter>
+    </ClCompile>
+    <ClCompile Include="frame1.cpp">
+      <Filter>源文件\frame</Filter>
+    </ClCompile>
+    <ClCompile Include="oMap.cpp">
+      <Filter>源文件\instance</Filter>
+    </ClCompile>
+    <ClCompile Include="bullet.cpp">
+      <Filter>源文件\frame</Filter>
+    </ClCompile>
+    <ClCompile Include="fish.cpp">
+      <Filter>源文件\frame</Filter>
+    </ClCompile>
+    <ClCompile Include="colVec.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="fishConfig.cpp">
+      <Filter>源文件\frame</Filter>
+    </ClCompile>
+    <ClCompile Include="gold.cpp">
+      <Filter>源文件\frame</Filter>
+    </ClCompile>
+    <ClCompile Include="files.cpp">
+      <Filter>源文件\frame</Filter>
+    </ClCompile>
+    <ClCompile Include="frame2.cpp">
+      <Filter>源文件\frame</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="d2dWin32.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="d2dWin32.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>
