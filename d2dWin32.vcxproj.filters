@@ -42,139 +42,145 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="DisplayObject.h">
-      <Filter>头文件\render</Filter>
+    <ClInclude Include="frame\bullet.h">
+      <Filter>头文件\frame</Filter>
     </ClInclude>
-    <ClInclude Include="sprite.h">
-      <Filter>头文件\render</Filter>
+    <ClInclude Include="frame\files.h">
+      <Filter>头文件\frame</Filter>
     </ClInclude>
-    <ClInclude Include="Content.h">
-      <Filter>头文件\render</Filter>
+    <ClInclude Include="frame\fish.h">
+      <Filter>头文件\frame</Filter>
     </ClInclude>
-    <ClInclude Include="action.h">
-      <Filter>头文件\render</Filter>
+    <ClInclude Include="frame\fishConfig.h">
+      <Filter>头文件\frame</Filter>
     </ClInclude>
-    <ClInclude Include="d2dWin32.h">
+    <ClInclude Include="frame\frame0.h">
+      <Filter>头文件\frame</Filter>
+    </ClInclude>
+    <ClInclude Include="frame\frame1.h">
+      <Filter>头文件\frame</Filter>
+    </ClInclude>
+    <ClInclude Include="frame\frame2.h">
+      <Filter>头文件\frame</Filter>
+    </ClInclude>
+    <ClInclude Include="frame\gold.h">
+      <Filter>头文件\frame</Filter>
+    </ClInclude>
+    <ClInclude Include="instance\d2dWin32.h">
       <Filter>头文件\instance</Filter>
     </ClInclude>
-    <ClInclude Include="DemoApp.h">
+    <ClInclude Include="instance\DemoApp.h">
       <Filter>头文件\instance</Filter>
     </ClInclude>
-    <ClInclude Include="Resource.h">
+    <ClInclude Include="instance\oMap.h">
       <Filter>头文件\instance</Filter>
+    </ClInclude>
+    <ClInclude Include="instance\Resource.h">
+      <Filter>头文件\instance</Filter>
+    </ClInclude>
+    <ClInclude Include="instance\targetver.h">
+      <Filter>头文件\instance</Filter>
+    </ClInclude>
+    <ClInclude Include="instance\utils.h">
+      <Filter>头文件\instance</Filter>
+    </ClInclude>
+    <ClInclude Include="render\action.h">
+      <Filter>头文件\render</Filter>
+    </ClInclude>
+    <ClInclude Include="render\animateSprite.h">
+      <Filter>头文件\render</Filter>
+    </ClInclude>
+    <ClInclude Include="render\Content.h">
+      <Filter>头文件\render</Filter>
+    </ClInclude>
+    <ClInclude Include="render\DisplayObject.h">
+      <Filter>头文件\render</Filter>
+    </ClInclude>
+    <ClInclude Include="render\sprite.h">
+      <Filter>头文件\render</Filter>
+    </ClInclude>
+    <ClInclude Include="render\ticker.h">
+      <Filter>头文件\render</Filter>
+    </ClInclude>
+    <ClInclude Include="trigger\createBefore.h">
+      <Filter>头文件\trigger</Filter>
     </ClInclude>
     <ClInclude Include="stdafx.h">
       <Filter>头文件\instance</Filter>
     </ClInclude>
-    <ClInclude Include="targetver.h">
-      <Filter>头文件\instance</Filter>
-    </ClInclude>
-    <ClInclude Include="ticker.h">
-      <Filter>头文件\render</Filter>
-    </ClInclude>
-    <ClInclude Include="utils.h">
-      <Filter>头文件\instance</Filter>
-    </ClInclude>
-    <ClInclude Include="collision.h">
+    <ClInclude Include="instance\colVec.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="createBefore.h">
-      <Filter>头文件\trigger</Filter>
-    </ClInclude>
-    <ClInclude Include="frame0.h">
-      <Filter>头文件\frame</Filter>
-    </ClInclude>
-    <ClInclude Include="frame1.h">
-      <Filter>头文件\frame</Filter>
-    </ClInclude>
-    <ClInclude Include="oMap.h">
-      <Filter>头文件\instance</Filter>
-    </ClInclude>
-    <ClInclude Include="bullet.h">
-      <Filter>头文件\frame</Filter>
-    </ClInclude>
-    <ClInclude Include="fish.h">
-      <Filter>头文件\frame</Filter>
-    </ClInclude>
-    <ClInclude Include="colVec.h">
+    <ClInclude Include="instance\collision.h">
       <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="fishConfig.h">
-      <Filter>头文件\frame</Filter>
-    </ClInclude>
-    <ClInclude Include="gold.h">
-      <Filter>头文件\frame</Filter>
-    </ClInclude>
-    <ClInclude Include="files.h">
-      <Filter>头文件\frame</Filter>
-    </ClInclude>
-    <ClInclude Include="frame2.h">
-      <Filter>头文件\frame</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="action.cpp">
-      <Filter>源文件\render</Filter>
+    <ClCompile Include="frame\bullet.cpp">
+      <Filter>源文件\frame</Filter>
     </ClCompile>
-    <ClCompile Include="Content.cpp">
-      <Filter>源文件\render</Filter>
+    <ClCompile Include="frame\files.cpp">
+      <Filter>源文件\frame</Filter>
     </ClCompile>
-    <ClCompile Include="DisplayObject.cpp">
-      <Filter>源文件\render</Filter>
+    <ClCompile Include="frame\fish.cpp">
+      <Filter>源文件\frame</Filter>
     </ClCompile>
-    <ClCompile Include="sprite.cpp">
-      <Filter>源文件\render</Filter>
+    <ClCompile Include="frame\fishConfig.cpp">
+      <Filter>源文件\frame</Filter>
     </ClCompile>
-    <ClCompile Include="ticker.cpp">
-      <Filter>源文件\render</Filter>
+    <ClCompile Include="frame\frame0.cpp">
+      <Filter>源文件\frame</Filter>
     </ClCompile>
-    <ClCompile Include="stdafx.cpp">
+    <ClCompile Include="frame\frame1.cpp">
+      <Filter>源文件\frame</Filter>
+    </ClCompile>
+    <ClCompile Include="frame\frame2.cpp">
+      <Filter>源文件\frame</Filter>
+    </ClCompile>
+    <ClCompile Include="frame\gold.cpp">
+      <Filter>源文件\frame</Filter>
+    </ClCompile>
+    <ClCompile Include="instance\d2dWin32.cpp">
       <Filter>源文件\instance</Filter>
     </ClCompile>
-    <ClCompile Include="DemoApp.cpp">
+    <ClCompile Include="instance\DemoApp.cpp">
       <Filter>源文件\instance</Filter>
     </ClCompile>
-    <ClCompile Include="d2dWin32.cpp">
+    <ClCompile Include="instance\oMap.cpp">
       <Filter>源文件\instance</Filter>
     </ClCompile>
-    <ClCompile Include="utils.cpp">
+    <ClCompile Include="instance\utils.cpp">
       <Filter>源文件\instance</Filter>
     </ClCompile>
-    <ClCompile Include="collision.cpp">
-      <Filter>源文件</Filter>
+    <ClCompile Include="render\action.cpp">
+      <Filter>源文件\render</Filter>
     </ClCompile>
-    <ClCompile Include="createBefore.cpp">
+    <ClCompile Include="render\animateSprite.cpp">
+      <Filter>源文件\render</Filter>
+    </ClCompile>
+    <ClCompile Include="render\Content.cpp">
+      <Filter>源文件\render</Filter>
+    </ClCompile>
+    <ClCompile Include="render\DisplayObject.cpp">
+      <Filter>源文件\render</Filter>
+    </ClCompile>
+    <ClCompile Include="render\sprite.cpp">
+      <Filter>源文件\render</Filter>
+    </ClCompile>
+    <ClCompile Include="render\ticker.cpp">
+      <Filter>源文件\render</Filter>
+    </ClCompile>
+    <ClCompile Include="trigger\createBefore.cpp">
       <Filter>源文件\trigger</Filter>
     </ClCompile>
-    <ClCompile Include="frame0.cpp">
-      <Filter>源文件\frame</Filter>
-    </ClCompile>
-    <ClCompile Include="frame1.cpp">
-      <Filter>源文件\frame</Filter>
-    </ClCompile>
-    <ClCompile Include="oMap.cpp">
-      <Filter>源文件\instance</Filter>
-    </ClCompile>
-    <ClCompile Include="bullet.cpp">
-      <Filter>源文件\frame</Filter>
-    </ClCompile>
-    <ClCompile Include="fish.cpp">
-      <Filter>源文件\frame</Filter>
-    </ClCompile>
-    <ClCompile Include="colVec.cpp">
+    <ClCompile Include="instance\colVec.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="fishConfig.cpp">
-      <Filter>源文件\frame</Filter>
+    <ClCompile Include="instance\collision.cpp">
+      <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="gold.cpp">
-      <Filter>源文件\frame</Filter>
-    </ClCompile>
-    <ClCompile Include="files.cpp">
-      <Filter>源文件\frame</Filter>
-    </ClCompile>
-    <ClCompile Include="frame2.cpp">
-      <Filter>源文件\frame</Filter>
+    <ClCompile Include="instance\stdafx.cpp">
+      <Filter>源文件\instance</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -192,5 +198,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="ClassDiagram.cd" />
+    <None Include="ClassDiagram1.cd" />
   </ItemGroup>
 </Project>

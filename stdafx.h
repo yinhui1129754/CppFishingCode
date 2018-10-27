@@ -5,7 +5,7 @@
 
 #pragma once
 
-#include "targetver.h"
+#include "instance/targetver.h"
 
 #define WIN32_LEAN_AND_MEAN             // 从 Windows 头中排除极少使用的资料
 // Windows 头文件: 
@@ -35,8 +35,8 @@
 #pragma comment (lib, "dwrite.lib")
 #include <vector>
 using namespace std;
-#include "utils.h"
-#include"oMap.h"
+#include "instance/utils.h"
+#include"instance/oMap.h"
 //#include "oMap.h"
 template<class Interface>
 inline void SafeRelease(
@@ -83,9 +83,9 @@ typedef struct  {
 } u_rect;
 
 
-#include "ticker.h"
-#include "action.h"
-#include "sprite.h"
-#include "Content.h"
-#include "DemoApp.h"
-#include "colVec.h"
+#include "render/ticker.h"
+#include "render/action.h"
+#include "render/sprite.h"
+#include "render/Content.h"
+#include "instance/DemoApp.h"
+#include "instance/colVec.h"

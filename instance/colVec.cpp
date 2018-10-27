@@ -1,4 +1,4 @@
-#include "stdafx.h"
+#include "../stdafx.h"
 #include "colVec.h"
 //#include "frame0.h"
 

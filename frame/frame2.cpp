@@ -1,7 +1,7 @@
-#include "stdafx.h"
+#include "../stdafx.h"
 #include "frame2.h"
 #include "frame1.h"
-#include "colVec.h"
+#include "../instance/colVec.h"
 action * frame2::scene = NULL;
 DemoApp * frame2::app = NULL;
 colVec * frame2::colObj = NULL;

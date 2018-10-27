@@ -1,4 +1,4 @@
-#include "stdafx.h"
+#include "../stdafx.h"
 #include "fishConfig.h"
 
 #include "fish.h"

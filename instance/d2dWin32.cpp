@@ -1,7 +1,7 @@
 // d2dWin32.cpp : 定义应用程序的入口点。
 //
 
-#include "stdafx.h"
+#include "../stdafx.h"
 #include "d2dWin32.h"
 //#include "frame0.h"
 void frame1(DemoApp*);

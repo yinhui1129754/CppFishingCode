@@ -1,5 +1,5 @@
-#include "stdafx.h"
-#include "sprite.h"
+#include "../stdafx.h"
+#include "../render/sprite.h"
 #include "collision.h"
 
 

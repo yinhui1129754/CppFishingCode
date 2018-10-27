@@ -1,8 +1,8 @@
-#include "stdafx.h"
+#include "../stdafx.h"
 #include "frame0.h"
 
 #include "frame2.h"
-#include "colVec.h"
+#include "../instance/colVec.h"
 //action * frame0::scene = NULL;
 action *frame0::scene = NULL;
 DemoApp * frame0::app = NULL;

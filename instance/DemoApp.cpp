@@ -1,6 +1,6 @@
-#include "stdafx.h"
-#include "Resource.h"
-#include "createBefore.h"
+#include "../stdafx.h"
+#include "../Resource.h"
+#include "../trigger/createBefore.h"
 
 DemoApp::DemoApp() :
 	m_hwnd(NULL),

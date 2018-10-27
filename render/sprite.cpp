@@ -1,4 +1,4 @@
-#include "stdafx.h"
+#include "../stdafx.h"
 #include "sprite.h"
 sprite::sprite(int x, int y) {
 	this->x = x;

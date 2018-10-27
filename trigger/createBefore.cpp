@@ -1,9 +1,9 @@
-#include "stdafx.h"
+#include "../stdafx.h"
 #include "createBefore.h"
 
-#include "frame0.h"
-#include "frame1.h"
-#include "frame2.h"
+#include "../frame/frame0.h"
+#include "../frame/frame1.h"
+#include "../frame/frame2.h"
 
 
 
