@@ -9,7 +9,7 @@ frame 放控制游戏场景相关的文件
 instance 放游戏窗口进程 游戏循环 工具类 碰撞类的文件  
 render 放游戏渲染引擎的文件夹  
 trigger 放对一些消息进行映射的文件夹  
-后面会详细对游戏的各个流程进行详细说明
+后面会详细对游戏的各个流程进行详细说明   
 [开发流程介绍](https://blog.csdn.net/baidu_38766085/article/details/83512219)
 ## 项目目录  
 ![项目目录截图](https://raw.githubusercontent.com/yinhui1129754/fishing/master/img/pro/m.png)  
