@@ -17,6 +17,15 @@ trigger 放对一些消息进行映射的文件夹
 [精灵对象sprite.h的封装](https://blog.csdn.net/baidu_38766085/article/details/83685196)  
 [场景类action.h的封装](https://blog.csdn.net/baidu_38766085/article/details/83796034)  
 [计时器对象ticker.h的封装](https://blog.csdn.net/baidu_38766085/article/details/83956184)  
+[窗口对象DemoApp.h的说明](https://blog.csdn.net/baidu_38766085/article/details/83796063)  
+[消息映射和流程触发结构 createBefore.h](https://blog.csdn.net/baidu_38766085/article/details/83956221)  
+[子弹对象bullet.h的封装](https://blog.csdn.net/baidu_38766085/article/details/83956242)  
+[鱼类fish.h的封装](https://blog.csdn.net/baidu_38766085/article/details/83956260)  
+[控制创建鱼类fishConfig.h的封装](https://blog.csdn.net/baidu_38766085/article/details/84074258)  
+[编写场景0结构frame0.h](https://blog.csdn.net/baidu_38766085/article/details/84074308)  
+[编写场景2结构frame2.h](https://blog.csdn.net/baidu_38766085/article/details/84260688)  
+[编写场景1结构frame1.h](https://blog.csdn.net/baidu_38766085/article/details/84260711)  
+[金币对象gold.h的封装](https://blog.csdn.net/baidu_38766085/article/details/84260761)  
 ## 项目目录  
 ![项目目录截图](https://raw.githubusercontent.com/yinhui1129754/fishing/master/img/pro/m.png)  
 ## 运行效果截图
