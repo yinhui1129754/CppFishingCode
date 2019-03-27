@@ -31,7 +31,7 @@ trigger 放对一些消息进行映射的文件夹
 ![项目目录截图](https://raw.githubusercontent.com/yinhui1129754/fishing/master/img/pro/m.png)  
 ## 运行效果截图
 ![项目运行效果截图](https://raw.githubusercontent.com/yinhui1129754/fishing/master/img/pro/play.gif)  
-##这里说明一下  
+## 这里说明一下  
 由于这是我第一个c++游戏所以这个里面有非常多的bug如果要进行商业开发的话请另行更加快捷的渲染流程(我的这个里面的渲染有问题)
 我会在后面的开源游戏中重新构建一种多线程的 非常流畅 非常流畅 非常流畅的渲染形式 后面会对捕鱼的源码进行重写 如果要商用的朋友请一定要记住呀!!!!
 
