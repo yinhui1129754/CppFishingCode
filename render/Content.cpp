@@ -267,14 +267,21 @@ void Content::getTextInfo(string  txt, D2D1_SIZE_F& size) {
 	this->getTextInfo(txt, size);
 };
 ID2D1Bitmap * Content::getSoucre(WCHAR * url) {
-	vector<WCHAR *>::iterator it;
-	it = find(this->imgName.begin(), this->imgName.end(), url);
-	if (it != this->imgName.end()) {
-		return (this->imgSource[distance(this->imgName.begin(), it)]);
+	int index = -1;
+	wstring ws1 = url;
+	for (int i = 0; i < this->imgName.size(); i++) {
+		wstring ws2 = this->imgName[i];
+		if (ws2.compare(ws1) == 0) {
+			index = i;
+			break;
+		}
+	}
+	if (index != -1) {
+		return this->imgSource[index];
 	}
 	else {
 		ID2D1Bitmap * g_bitmap = NULL;
-		IWICBitmapDecoder *bitmapdecoder = NULL;
+		IWICBitmapDecoder * bitmapdecoder = NULL;
 		this->m_imgFac->CreateDecoderFromFilename(url, NULL, GENERIC_READ, WICDecodeMetadataCacheOnDemand, &bitmapdecoder);
 		IWICBitmapFrameDecode  *pframe = NULL;
 		bitmapdecoder->GetFrame(0, &pframe);
@@ -285,10 +292,10 @@ ID2D1Bitmap * Content::getSoucre(WCHAR * url) {
 		fmtcovter->Release();
 		pframe->Release();
 		bitmapdecoder->Release();
-		this->imgName.push_back(url);
+		this->imgName.push_back(ws1);
 		this->imgSource.push_back(g_bitmap);
 		return g_bitmap;
-	};
+	}
 }
 void Content::drawImage(WCHAR * url,int x, int y) {
 	ID2D1Bitmap * g_bitmap = this->getSoucre(url);

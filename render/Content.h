@@ -87,7 +87,7 @@ private:
 	ID2D1SolidColorBrush *brush = NULL;
 	ID2D1BitmapBrush * bitmapBrush;
 	ID2D1StrokeStyle * m_lineStyle = NULL;
-	vector <WCHAR *> imgName;
+	vector <wstring> imgName;
 	vector <ID2D1Bitmap *> imgSource;
 	IDWriteFactory * m_writeFac = NULL;
 	IDWriteTextFormat * m_forMat = NULL;

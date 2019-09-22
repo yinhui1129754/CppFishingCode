@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="frame\bullet.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="frame\files.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="frame\fish.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="frame\fishConfig.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="frame\frame0.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="frame\frame1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="frame\frame2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="frame\gold.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="instance\collision.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="instance\colVec.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="instance\d2dWin32.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="instance\DemoApp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="instance\oMap.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="instance\stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="instance\utils.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="render\action.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="render\animateSprite.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="render\Content.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="render\DisplayObject.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="render\sprite.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="render\ticker.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="trigger\createBefore.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="frame\bullet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="frame\files.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="frame\fish.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="frame\fishConfig.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="frame\frame0.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="frame\frame1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="frame\frame2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="frame\gold.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="instance\collision.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="instance\colVec.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="instance\d2dWin32.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="instance\DemoApp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="instance\oMap.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="instance\targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="instance\utils.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="render\action.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="render\animateSprite.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="render\Content.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="render\DisplayObject.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="render\sprite.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="render\ticker.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="trigger\createBefore.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="_save.sva" />
+    <None Include="ClassDiagram.cd" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="d2dWin32.aps" />
+    <None Include="README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="d2dWin32.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="player.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="player.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="small.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="d2dWin32.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>
