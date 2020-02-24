@@ -27,6 +27,7 @@ trigger 放对一些消息进行映射的文件夹
 [编写场景2结构frame2.h](https://blog.csdn.net/baidu_38766085/article/details/84260688)  
 [编写场景1结构frame1.h](https://blog.csdn.net/baidu_38766085/article/details/84260711)  
 [金币对象gold.h的封装](https://blog.csdn.net/baidu_38766085/article/details/84260761)  
+[检查对象colVec.h的封装](https://blog.csdn.net/baidu_38766085/article/details/84260804)  
 ## 项目目录  
 ![项目目录截图](https://raw.githubusercontent.com/yinhui1129754/fishing/master/img/pro/m.png)  
 ## 运行效果截图
